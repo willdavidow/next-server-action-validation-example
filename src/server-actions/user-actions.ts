@@ -1,3 +1,5 @@
+'use server'; 
+
 import { signUpSchema, type SignUpSchema } from "@/schemas/user-schema";
 
 export const signUp = async (formData: SignUpSchema) => {
